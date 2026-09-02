@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
+var romanToInt = function (s) {
     var values = {
         I: 1,
         V: 5,
@@ -13,16 +13,16 @@ var romanToInt = function(s) {
         M: 1000
     };
     var total = 0;
-    for(var i = 0; i < s.length; i++){
-        var current  = values[s[i]];
-        var next = values[s[i+1]];
-    if(current < next){
-        total -= current;
+    for (var i = 0; i < s.length; i++) {
+        var current = values[s[i]];
+        var next = values[s[i + 1]];
+        if (current < next) {
+            total -= current;
+        }
+        else {
+            total += current;
+        }
     }
-    else{
-        total += current;
-    }
-    }
-return total;
+    return total;
 
 };
