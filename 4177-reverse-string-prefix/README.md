@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/reverse-string-prefix">Reverse String Prefix</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string <code>s</code> and an integer <code>k</code>.</p>
+<p>You are given a string <code>s</code> and an integer <code>k</code>.</p>
 
 <p>Reverse the first <code>k</code> characters of <code>s</code> and return the resulting string.</p>
 
